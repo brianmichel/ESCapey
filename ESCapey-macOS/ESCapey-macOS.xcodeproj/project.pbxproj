@@ -35,7 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		723D20CA1DC014FB00C7929C /* ESCapey-macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ESCapey-macOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		723D20CA1DC014FB00C7929C /* ESCapey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ESCapey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		723D20CD1DC014FB00C7929C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		723D20CF1DC014FB00C7929C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		723D20D11DC014FB00C7929C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -89,7 +89,7 @@
 		723D20CB1DC014FB00C7929C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				723D20CA1DC014FB00C7929C /* ESCapey-macOS.app */,
+				723D20CA1DC014FB00C7929C /* ESCapey.app */,
 				723D20DB1DC014FB00C7929C /* ESCapey-macOSTests.xctest */,
 				723D20E61DC014FB00C7929C /* ESCapey-macOSUITests.xctest */,
 			);
@@ -145,7 +145,7 @@
 			);
 			name = "ESCapey-macOS";
 			productName = "ESCapey-macOS";
-			productReference = 723D20CA1DC014FB00C7929C /* ESCapey-macOS.app */;
+			productReference = 723D20CA1DC014FB00C7929C /* ESCapey.app */;
 			productType = "com.apple.product-type.application";
 		};
 		723D20DA1DC014FB00C7929C /* ESCapey-macOSTests */ = {
@@ -413,7 +413,7 @@
 				INFOPLIST_FILE = "ESCapey-macOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bsm.osx.ESCapey-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ESCapey;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -427,7 +427,7 @@
 				INFOPLIST_FILE = "ESCapey-macOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bsm.osx.ESCapey-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ESCapey;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
