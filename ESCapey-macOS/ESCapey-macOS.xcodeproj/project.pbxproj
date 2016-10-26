@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		723D20CE1DC014FB00C7929C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723D20CD1DC014FB00C7929C /* AppDelegate.swift */; };
+		723D20D01DC014FB00C7929C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723D20CF1DC014FB00C7929C /* MainViewController.swift */; };
+		723D20D21DC014FB00C7929C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 723D20D11DC014FB00C7929C /* Assets.xcassets */; };
+		723D20D51DC014FB00C7929C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 723D20D31DC014FB00C7929C /* Main.storyboard */; };
+		723D20E01DC014FB00C7929C /* ESCapey_macOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723D20DF1DC014FB00C7929C /* ESCapey_macOSTests.swift */; };
+		723D20EB1DC014FB00C7929C /* ESCapey_macOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723D20EA1DC014FB00C7929C /* ESCapey_macOSUITests.swift */; };
+		723D20F91DC0154300C7929C /* KeySender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723D20F81DC0154300C7929C /* KeySender.swift */; };
+		723D21351DC0181B00C7929C /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723D21341DC0181B00C7929C /* Service.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		723D20DC1DC014FB00C7929C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 723D20C21DC014FB00C7929C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 723D20C91DC014FB00C7929C;
+			remoteInfo = "ESCapey-macOS";
+		};
+		723D20E71DC014FB00C7929C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 723D20C21DC014FB00C7929C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 723D20C91DC014FB00C7929C;
+			remoteInfo = "ESCapey-macOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		723D20CA1DC014FB00C7929C /* ESCapey-macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ESCapey-macOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		723D20CD1DC014FB00C7929C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		723D20CF1DC014FB00C7929C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		723D20D11DC014FB00C7929C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		723D20D41DC014FB00C7929C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		723D20D61DC014FB00C7929C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		723D20DB1DC014FB00C7929C /* ESCapey-macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ESCapey-macOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		723D20DF1DC014FB00C7929C /* ESCapey_macOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESCapey_macOSTests.swift; sourceTree = "<group>"; };
+		723D20E11DC014FB00C7929C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		723D20E61DC014FB00C7929C /* ESCapey-macOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ESCapey-macOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		723D20EA1DC014FB00C7929C /* ESCapey_macOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESCapey_macOSUITests.swift; sourceTree = "<group>"; };
+		723D20EC1DC014FB00C7929C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		723D20F81DC0154300C7929C /* KeySender.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeySender.swift; sourceTree = "<group>"; };
+		723D21341DC0181B00C7929C /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		723D20C71DC014FB00C7929C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		723D20D81DC014FB00C7929C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		723D20E31DC014FB00C7929C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		723D20C11DC014FB00C7929C = {
+			isa = PBXGroup;
+			children = (
+				723D20CC1DC014FB00C7929C /* ESCapey-macOS */,
+				723D20DE1DC014FB00C7929C /* ESCapey-macOSTests */,
+				723D20E91DC014FB00C7929C /* ESCapey-macOSUITests */,
+				723D20CB1DC014FB00C7929C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		723D20CB1DC014FB00C7929C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				723D20CA1DC014FB00C7929C /* ESCapey-macOS.app */,
+				723D20DB1DC014FB00C7929C /* ESCapey-macOSTests.xctest */,
+				723D20E61DC014FB00C7929C /* ESCapey-macOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		723D20CC1DC014FB00C7929C /* ESCapey-macOS */ = {
+			isa = PBXGroup;
+			children = (
+				723D20CD1DC014FB00C7929C /* AppDelegate.swift */,
+				723D20CF1DC014FB00C7929C /* MainViewController.swift */,
+				723D20D11DC014FB00C7929C /* Assets.xcassets */,
+				723D20D31DC014FB00C7929C /* Main.storyboard */,
+				723D20D61DC014FB00C7929C /* Info.plist */,
+				723D20F81DC0154300C7929C /* KeySender.swift */,
+				723D21341DC0181B00C7929C /* Service.swift */,
+			);
+			path = "ESCapey-macOS";
+			sourceTree = "<group>";
+		};
+		723D20DE1DC014FB00C7929C /* ESCapey-macOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				723D20DF1DC014FB00C7929C /* ESCapey_macOSTests.swift */,
+				723D20E11DC014FB00C7929C /* Info.plist */,
+			);
+			path = "ESCapey-macOSTests";
+			sourceTree = "<group>";
+		};
+		723D20E91DC014FB00C7929C /* ESCapey-macOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				723D20EA1DC014FB00C7929C /* ESCapey_macOSUITests.swift */,
+				723D20EC1DC014FB00C7929C /* Info.plist */,
+			);
+			path = "ESCapey-macOSUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		723D20C91DC014FB00C7929C /* ESCapey-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 723D20EF1DC014FB00C7929C /* Build configuration list for PBXNativeTarget "ESCapey-macOS" */;
+			buildPhases = (
+				723D20C61DC014FB00C7929C /* Sources */,
+				723D20C71DC014FB00C7929C /* Frameworks */,
+				723D20C81DC014FB00C7929C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ESCapey-macOS";
+			productName = "ESCapey-macOS";
+			productReference = 723D20CA1DC014FB00C7929C /* ESCapey-macOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		723D20DA1DC014FB00C7929C /* ESCapey-macOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 723D20F21DC014FB00C7929C /* Build configuration list for PBXNativeTarget "ESCapey-macOSTests" */;
+			buildPhases = (
+				723D20D71DC014FB00C7929C /* Sources */,
+				723D20D81DC014FB00C7929C /* Frameworks */,
+				723D20D91DC014FB00C7929C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				723D20DD1DC014FB00C7929C /* PBXTargetDependency */,
+			);
+			name = "ESCapey-macOSTests";
+			productName = "ESCapey-macOSTests";
+			productReference = 723D20DB1DC014FB00C7929C /* ESCapey-macOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		723D20E51DC014FB00C7929C /* ESCapey-macOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 723D20F51DC014FB00C7929C /* Build configuration list for PBXNativeTarget "ESCapey-macOSUITests" */;
+			buildPhases = (
+				723D20E21DC014FB00C7929C /* Sources */,
+				723D20E31DC014FB00C7929C /* Frameworks */,
+				723D20E41DC014FB00C7929C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				723D20E81DC014FB00C7929C /* PBXTargetDependency */,
+			);
+			name = "ESCapey-macOSUITests";
+			productName = "ESCapey-macOSUITests";
+			productReference = 723D20E61DC014FB00C7929C /* ESCapey-macOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		723D20C21DC014FB00C7929C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Brian Michel";
+				TargetAttributes = {
+					723D20C91DC014FB00C7929C = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = YN24FFRTC8;
+						ProvisioningStyle = Automatic;
+					};
+					723D20DA1DC014FB00C7929C = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = YN24FFRTC8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 723D20C91DC014FB00C7929C;
+					};
+					723D20E51DC014FB00C7929C = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = YN24FFRTC8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 723D20C91DC014FB00C7929C;
+					};
+				};
+			};
+			buildConfigurationList = 723D20C51DC014FB00C7929C /* Build configuration list for PBXProject "ESCapey-macOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 723D20C11DC014FB00C7929C;
+			productRefGroup = 723D20CB1DC014FB00C7929C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				723D20C91DC014FB00C7929C /* ESCapey-macOS */,
+				723D20DA1DC014FB00C7929C /* ESCapey-macOSTests */,
+				723D20E51DC014FB00C7929C /* ESCapey-macOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		723D20C81DC014FB00C7929C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				723D20D21DC014FB00C7929C /* Assets.xcassets in Resources */,
+				723D20D51DC014FB00C7929C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		723D20D91DC014FB00C7929C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		723D20E41DC014FB00C7929C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		723D20C61DC014FB00C7929C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				723D20D01DC014FB00C7929C /* MainViewController.swift in Sources */,
+				723D21351DC0181B00C7929C /* Service.swift in Sources */,
+				723D20F91DC0154300C7929C /* KeySender.swift in Sources */,
+				723D20CE1DC014FB00C7929C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		723D20D71DC014FB00C7929C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				723D20E01DC014FB00C7929C /* ESCapey_macOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		723D20E21DC014FB00C7929C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				723D20EB1DC014FB00C7929C /* ESCapey_macOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		723D20DD1DC014FB00C7929C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 723D20C91DC014FB00C7929C /* ESCapey-macOS */;
+			targetProxy = 723D20DC1DC014FB00C7929C /* PBXContainerItemProxy */;
+		};
+		723D20E81DC014FB00C7929C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 723D20C91DC014FB00C7929C /* ESCapey-macOS */;
+			targetProxy = 723D20E71DC014FB00C7929C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		723D20D31DC014FB00C7929C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				723D20D41DC014FB00C7929C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		723D20ED1DC014FB00C7929C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		723D20EE1DC014FB00C7929C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		723D20F01DC014FB00C7929C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = YN24FFRTC8;
+				INFOPLIST_FILE = "ESCapey-macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bsm.osx.ESCapey-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		723D20F11DC014FB00C7929C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = YN24FFRTC8;
+				INFOPLIST_FILE = "ESCapey-macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bsm.osx.ESCapey-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		723D20F31DC014FB00C7929C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = YN24FFRTC8;
+				INFOPLIST_FILE = "ESCapey-macOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bsm.osx.ESCapey-macOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ESCapey-macOS.app/Contents/MacOS/ESCapey-macOS";
+			};
+			name = Debug;
+		};
+		723D20F41DC014FB00C7929C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = YN24FFRTC8;
+				INFOPLIST_FILE = "ESCapey-macOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bsm.osx.ESCapey-macOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ESCapey-macOS.app/Contents/MacOS/ESCapey-macOS";
+			};
+			name = Release;
+		};
+		723D20F61DC014FB00C7929C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = YN24FFRTC8;
+				INFOPLIST_FILE = "ESCapey-macOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bsm.osx.ESCapey-macOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "ESCapey-macOS";
+			};
+			name = Debug;
+		};
+		723D20F71DC014FB00C7929C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = YN24FFRTC8;
+				INFOPLIST_FILE = "ESCapey-macOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bsm.osx.ESCapey-macOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "ESCapey-macOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		723D20C51DC014FB00C7929C /* Build configuration list for PBXProject "ESCapey-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				723D20ED1DC014FB00C7929C /* Debug */,
+				723D20EE1DC014FB00C7929C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		723D20EF1DC014FB00C7929C /* Build configuration list for PBXNativeTarget "ESCapey-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				723D20F01DC014FB00C7929C /* Debug */,
+				723D20F11DC014FB00C7929C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		723D20F21DC014FB00C7929C /* Build configuration list for PBXNativeTarget "ESCapey-macOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				723D20F31DC014FB00C7929C /* Debug */,
+				723D20F41DC014FB00C7929C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		723D20F51DC014FB00C7929C /* Build configuration list for PBXNativeTarget "ESCapey-macOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				723D20F61DC014FB00C7929C /* Debug */,
+				723D20F71DC014FB00C7929C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 723D20C21DC014FB00C7929C /* Project object */;
+}

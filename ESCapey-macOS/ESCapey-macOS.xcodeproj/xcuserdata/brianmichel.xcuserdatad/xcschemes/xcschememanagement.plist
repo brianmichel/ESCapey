@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>ESCapey-macOS.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>723D20C91DC014FB00C7929C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>723D20DA1DC014FB00C7929C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>723D20E51DC014FB00C7929C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
