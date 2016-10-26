@@ -13,22 +13,6 @@ class ViewController: UIViewController, MCBrowserViewControllerDelegate {
 
     let session = MCSession(peer: MCPeerID(displayName: UIDevice.current.name))
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
-    
-    override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(animated)
-
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
-    
     @IBAction func escapeButtonTapped(_ sender: Any?) {
         let key = "escape".data(using: .utf8)
         do {
@@ -53,6 +37,5 @@ class ViewController: UIViewController, MCBrowserViewControllerDelegate {
     func browserViewControllerWasCancelled(_ browserViewController: MCBrowserViewController) {
         browserViewController.dismiss(animated: true, completion: nil)
     }
-    
 }
 
