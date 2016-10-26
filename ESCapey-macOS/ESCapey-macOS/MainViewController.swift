@@ -10,14 +10,8 @@ import Cocoa
 
 class MainViewController: NSViewController {
     
-    let keyService = KeySenderRecivingService()
-
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        let escKeySender = ESCKeySender()
-        escKeySender.send()
-
         // Do any additional setup after loading the view.
     }
 
