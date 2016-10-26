@@ -11,7 +11,7 @@ import MultipeerConnectivity
 
 class ViewController: UIViewController, MCBrowserViewControllerDelegate {
 
-    let session = MCSession(peer: MCPeerID(displayName: "iPhone"))
+    let session = MCSession(peer: MCPeerID(displayName: UIDevice.current.name))
     
     override func viewDidLoad() {
         super.viewDidLoad()

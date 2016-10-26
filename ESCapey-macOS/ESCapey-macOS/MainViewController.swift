@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  MainViewController.swift
 //  ESCapey-macOS
 //
 //  Created by Brian Michel on 10/25/16.
@@ -8,7 +8,7 @@
 
 import Cocoa
 
-class ViewController: NSViewController {
+class MainViewController: NSViewController {
     
     let keyService = KeySenderRecivingService()
 

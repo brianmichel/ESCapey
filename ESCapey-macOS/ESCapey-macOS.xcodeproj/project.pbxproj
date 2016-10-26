@@ -14,7 +14,7 @@
 		723D20E01DC014FB00C7929C /* ESCapey_macOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723D20DF1DC014FB00C7929C /* ESCapey_macOSTests.swift */; };
 		723D20EB1DC014FB00C7929C /* ESCapey_macOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723D20EA1DC014FB00C7929C /* ESCapey_macOSUITests.swift */; };
 		723D20F91DC0154300C7929C /* KeySender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723D20F81DC0154300C7929C /* KeySender.swift */; };
-		723D21351DC0181B00C7929C /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723D21341DC0181B00C7929C /* Service.swift */; };
+		723D21351DC0181B00C7929C /* KeySenderRecivingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723D21341DC0181B00C7929C /* KeySenderRecivingService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +48,7 @@
 		723D20EA1DC014FB00C7929C /* ESCapey_macOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESCapey_macOSUITests.swift; sourceTree = "<group>"; };
 		723D20EC1DC014FB00C7929C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		723D20F81DC0154300C7929C /* KeySender.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeySender.swift; sourceTree = "<group>"; };
-		723D21341DC0181B00C7929C /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		723D21341DC0181B00C7929C /* KeySenderRecivingService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeySenderRecivingService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +105,7 @@
 				723D20D31DC014FB00C7929C /* Main.storyboard */,
 				723D20D61DC014FB00C7929C /* Info.plist */,
 				723D20F81DC0154300C7929C /* KeySender.swift */,
-				723D21341DC0181B00C7929C /* Service.swift */,
+				723D21341DC0181B00C7929C /* KeySenderRecivingService.swift */,
 			);
 			path = "ESCapey-macOS";
 			sourceTree = "<group>";
@@ -265,7 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				723D20D01DC014FB00C7929C /* MainViewController.swift in Sources */,
-				723D21351DC0181B00C7929C /* Service.swift in Sources */,
+				723D21351DC0181B00C7929C /* KeySenderRecivingService.swift in Sources */,
 				723D20F91DC0154300C7929C /* KeySender.swift in Sources */,
 				723D20CE1DC014FB00C7929C /* AppDelegate.swift in Sources */,
 			);

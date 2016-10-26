@@ -1,5 +1,5 @@
 //
-//  Service.swift
+//  KeySenderRecivingService.swift
 //  ESCapey-macOS
 //
 //  Created by Brian Michel on 10/25/16.
@@ -15,7 +15,7 @@ class KeySenderRecivingService: NSObject, MCSessionDelegate {
     let advertiser: MCAdvertiserAssistant
     
     override init() {
-        session = MCSession(peer: peerID, securityIdentity: nil, encryptionPreference: .optional)
+        session = MCSession(peer: peerID, securityIdentity: nil, encryptionPreference: .required)
         advertiser = MCAdvertiserAssistant(serviceType: "ESCapey", discoveryInfo: nil, session: session)
         
         super.init()
