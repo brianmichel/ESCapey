@@ -26,6 +26,7 @@ class ViewController: UIViewController, MCBrowserViewControllerDelegate {
     @IBAction func toggleConnectionButtonTapped(_ sender: Any?) {
         let controller = MCBrowserViewController(serviceType: "ESCapey", session: session)
         controller.delegate = self
+        controller.maximumNumberOfPeers = 1
         
         showDetailViewController(controller, sender: self)
     }

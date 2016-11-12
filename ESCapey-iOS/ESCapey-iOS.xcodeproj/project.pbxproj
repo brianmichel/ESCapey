@@ -34,7 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		723D21031DC017FC00C7929C /* ESCapey-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ESCapey-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		723D21031DC017FC00C7929C /* ESCapey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ESCapey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		723D21061DC017FC00C7929C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		723D21081DC017FC00C7929C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		723D210B1DC017FC00C7929C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -87,7 +87,7 @@
 		723D21041DC017FC00C7929C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				723D21031DC017FC00C7929C /* ESCapey-iOS.app */,
+				723D21031DC017FC00C7929C /* ESCapey.app */,
 				723D21171DC017FC00C7929C /* ESCapey-iOSTests.xctest */,
 				723D21221DC017FC00C7929C /* ESCapey-iOSUITests.xctest */,
 			);
@@ -142,7 +142,7 @@
 			);
 			name = "ESCapey-iOS";
 			productName = "ESCapey-iOS";
-			productReference = 723D21031DC017FC00C7929C /* ESCapey-iOS.app */;
+			productReference = 723D21031DC017FC00C7929C /* ESCapey.app */;
 			productType = "com.apple.product-type.application";
 		};
 		723D21161DC017FC00C7929C /* ESCapey-iOSTests */ = {
@@ -419,7 +419,7 @@
 				INFOPLIST_FILE = "ESCapey-iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bsm.ios.ESCapey-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ESCapey;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -432,7 +432,7 @@
 				INFOPLIST_FILE = "ESCapey-iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bsm.ios.ESCapey-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ESCapey;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -514,6 +514,7 @@
 				723D212D1DC017FC00C7929C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		723D212E1DC017FC00C7929C /* Build configuration list for PBXNativeTarget "ESCapey-iOSTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +523,7 @@
 				723D21301DC017FC00C7929C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		723D21311DC017FC00C7929C /* Build configuration list for PBXNativeTarget "ESCapey-iOSUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +532,7 @@
 				723D21331DC017FC00C7929C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
