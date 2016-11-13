@@ -10,7 +10,13 @@ import UIKit
 import MultipeerConnectivity
 
 class ViewController: UIViewController, MCBrowserViewControllerDelegate {
+    
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
 
+    @IBOutlet weak var connectionToggleButton: UIButton!
+        
     let session = MCSession(peer: MCPeerID(displayName: UIDevice.current.name))
     
     @IBAction func escapeButtonTapped(_ sender: Any?) {
@@ -24,19 +30,38 @@ class ViewController: UIViewController, MCBrowserViewControllerDelegate {
     }
     
     @IBAction func toggleConnectionButtonTapped(_ sender: Any?) {
-        let controller = MCBrowserViewController(serviceType: "ESCapey", session: session)
-        controller.delegate = self
-        controller.maximumNumberOfPeers = 1
-        
-        showDetailViewController(controller, sender: self)
+        if session.hasPeers() {
+            session.disconnect()
+            updateConnectButtonTitle()
+        }
+        else {
+            let controller = MCBrowserViewController(serviceType: "ESCapey", session: session)
+            controller.delegate = self
+            controller.maximumNumberOfPeers = 1
+            
+            showDetailViewController(controller, sender: self)
+        }
     }
     
     func browserViewControllerDidFinish(_ browserViewController: MCBrowserViewController) {
         browserViewController.dismiss(animated: true, completion: nil)
+        updateConnectButtonTitle()
     }
     
     func browserViewControllerWasCancelled(_ browserViewController: MCBrowserViewController) {
         browserViewController.dismiss(animated: true, completion: nil)
+        updateConnectButtonTitle()
+    }
+    
+    private func updateConnectButtonTitle() {
+        let text = session.hasPeers() ? "Disconnect" : "Connect"
+        connectionToggleButton.setTitle(text, for: .normal)
+    }
+}
+
+private extension MCSession {
+    func hasPeers() -> Bool {
+        return self.connectedPeers.count > 0
     }
 }
 

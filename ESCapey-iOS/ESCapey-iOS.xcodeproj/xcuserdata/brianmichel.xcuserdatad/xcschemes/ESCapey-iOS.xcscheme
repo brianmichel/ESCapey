@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "723D21021DC017FC00C7929C"
-               BuildableName = "ESCapey-iOS.app"
+               BuildableName = "ESCapey.app"
                BlueprintName = "ESCapey-iOS"
                ReferencedContainer = "container:ESCapey-iOS.xcodeproj">
             </BuildableReference>
@@ -53,7 +53,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "723D21021DC017FC00C7929C"
-            BuildableName = "ESCapey-iOS.app"
+            BuildableName = "ESCapey.app"
             BlueprintName = "ESCapey-iOS"
             ReferencedContainer = "container:ESCapey-iOS.xcodeproj">
          </BuildableReference>
@@ -76,7 +76,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "723D21021DC017FC00C7929C"
-            BuildableName = "ESCapey-iOS.app"
+            BuildableName = "ESCapey.app"
             BlueprintName = "ESCapey-iOS"
             ReferencedContainer = "container:ESCapey-iOS.xcodeproj">
          </BuildableReference>
@@ -95,7 +95,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "723D21021DC017FC00C7929C"
-            BuildableName = "ESCapey-iOS.app"
+            BuildableName = "ESCapey.app"
             BlueprintName = "ESCapey-iOS"
             ReferencedContainer = "container:ESCapey-iOS.xcodeproj">
          </BuildableReference>
